@@ -1,0 +1,24 @@
+# Ignorar arquivos compilados
+*.class
+
+# Ignorar diretórios de build
+/build/
+nbbuild/
+dist/
+nbdist/
+generated/
+
+# Ignorar arquivos temporários do NetBeans
+nbproject/private/
+**/nbproject/private/
+
+# Ignorar arquivos de backup e sistema
+*.bak
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignorar bibliotecas locais
+/lib/
