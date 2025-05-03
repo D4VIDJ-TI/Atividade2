@@ -60,7 +60,7 @@ public class ProdutosDAO {
                 if (prep != null) prep.close();
                 if (conn != null) conn.close();
             } catch (SQLException e) {
-                // Não precisa exibir erro de fechamento
+                
             }
         }
 
