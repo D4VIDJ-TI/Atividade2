@@ -41,6 +41,11 @@ public class TelaVendas extends javax.swing.JFrame {
         jLabel1.setText("Produtos Vendidos ");
 
         BtnVoltar.setText("< Return");
+        BtnVoltar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                BtnVoltarActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -86,6 +91,10 @@ public class TelaVendas extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void BtnVoltarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_BtnVoltarActionPerformed
+      this.dispose();
+    }//GEN-LAST:event_BtnVoltarActionPerformed
 
   
     public static void main(String args[]) {
